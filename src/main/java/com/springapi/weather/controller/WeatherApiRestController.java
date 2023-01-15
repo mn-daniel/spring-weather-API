@@ -1,7 +1,7 @@
-package com.hackerrank.weather.controller;
+package com.springapi.weather.controller;
 
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.repository.WeatherRepository;
+import com.springapi.weather.model.Weather;
+import com.springapi.weather.repository.WeatherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

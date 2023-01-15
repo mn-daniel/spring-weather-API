@@ -1,4 +1,4 @@
-package com.hackerrank.weather.model;
+package com.springapi.weather.model;
 
 import javax.persistence.*;
 import java.util.Date;

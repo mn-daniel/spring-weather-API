@@ -1,6 +1,6 @@
-package com.hackerrank.weather.repository;
+package com.springapi.weather.repository;
 
-import com.hackerrank.weather.model.Weather;
+import com.springapi.weather.model.Weather;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,8 @@
-package com.hackerrank.weather;
+package com.springapi.weather;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.repository.WeatherRepository;
+import com.springapi.weather.model.Weather;
+import com.springapi.weather.repository.WeatherRepository;
 import com.jayway.jsonpath.JsonPath;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
