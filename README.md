@@ -17,10 +17,6 @@ Example of a weather data JSON object:
 }
 ```
 
-## Requirements:
-The `REST` service must expose the `/weather` endpoint, which allows for managing the weather records in the following way:
-
-
 `POST` request to `/weather` :
 * creates a new weather data record
 * expects a valid weather data object as its body payload, except that it does not have an id property; you can assume that the given object is always valid
@@ -43,9 +39,6 @@ The `REST` service must expose the `/weather` endpoint, which allows for managin
 * deletes the record with the given id from the database
 * if a matching record existed, the response code is 204
 * if there was no record in the database with the given id, the response code is 404
-
-
-Your task is to complete the given project so that it passes all the test cases when running the provided unit tests. The project by default supports the use of the H2 database. Implement the `POST` request to `/weather` first because testing the other methods requires `POST` to work correctly.
 
 ## Commands
 - run: 
